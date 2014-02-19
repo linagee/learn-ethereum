@@ -1,7 +1,7 @@
 learn-ethereum
 ==============
 
-Just a few learning resources for Ethereum / CLL. Open the SVG in Inkscape if you'd like to edit.
+Just a few images to help understand the Ethereum CLL code examples. Open the SVG in Inkscape if you'd like to edit.
 
 Helpful resources:
 
