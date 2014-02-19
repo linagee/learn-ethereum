@@ -37,17 +37,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.01"
-     inkscape:cx="512.88788"
-     inkscape:cy="178.76859"
+     inkscape:zoom="0.94"
+     inkscape:cx="385.79923"
+     inkscape:cy="446.63767"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1537"
      inkscape:window-height="812"
-     inkscape:window-x="1699"
-     inkscape:window-y="31"
-     inkscape:window-maximized="0" />
+     inkscape:window-x="1673"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -2149,24 +2151,36 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
        height="837"
        width="1053"
        clip-path="url(#clipPath2998)"
-       transform="matrix(1.0507812,0,0,1.0507812,137.95294,166.34814)" />
+       transform="matrix(1.0507812,0,0,1.0507812,137.95294,166.34814)"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.57003295px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 309.06818,534.65946 6.4774,0 0,28.30526 -6.4774,0"
        id="path3006"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.84058142px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 315.20007,549.33587 12.96575,0 0,-92.7788"
        id="path3008"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="108.06454"
        y="412.84604"
        id="text3010"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          x="108.06454"
          y="412.84604"
@@ -2197,7 +2211,10 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
        y="42.419353"
        id="text3018"
        sodipodi:linespacing="125%"
-       transform="translate(0,287.36218)"><tspan
+       transform="translate(0,287.36218)"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3020"
          x="18.548388"
@@ -2206,46 +2223,68 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="303.04239"
-       y="586.73883"
+       x="300.91473"
+       y="563.33459"
        id="text3010-4"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
-         x="303.04239"
-         y="586.73883"
+         x="300.91473"
+         y="563.33459"
          style="font-size:12px"
-         id="tspan4084">We ourselves (this code) are stored in contract.storage, so setting a value of 1000 allows</tspan><tspan
+         id="tspan4084" /><tspan
          sodipodi:role="line"
-         x="303.04239"
-         y="601.73883"
+         x="300.91473"
+         y="578.33459"
          style="font-size:12px"
-         id="tspan4340">us to skip over code storage. This also allows the one time execution of lines 14 and 15</tspan><tspan
+         id="tspan4340">There is a one-time initialisation of this contract which is marked in storage location 1000.</tspan><tspan
          sodipodi:role="line"
-         x="303.04239"
-         y="616.73883"
+         x="300.91473"
+         y="593.33459"
+         style="font-size:12px"
+         id="tspan4432">This number 1000 is arbitrary, but needs to be high enough not to overwrite</tspan><tspan
+         sodipodi:role="line"
+         x="300.91473"
+         y="608.33459"
+         style="font-size:12px"
+         id="tspan4434">the contract code which resides in the same storage space.</tspan><tspan
+         sodipodi:role="line"
+         x="300.91473"
+         y="623.33459"
          id="tspan3022-7" /><tspan
          sodipodi:role="line"
-         x="303.04239"
-         y="631.73883"
+         x="300.91473"
+         y="638.33459"
          id="tspan3016-2" /></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.65523386px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 223.4168,610.83279 6.3922,0 0,37.89748 -6.3922,0"
        id="path3006-9-6"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 229.83871,341.6129 24.19355,0"
        id="path3153"
        inkscape:connector-curvature="0"
-       transform="translate(0,287.36218)" />
+       transform="translate(0,287.36218)"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="257.99423"
        y="633.0921"
        id="text3010-4-3"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          x="257.99423"
          y="633.0921"
@@ -2265,7 +2304,10 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
        x="176.63274"
        y="324.5437"
        id="text3010-3"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          x="176.63274"
          y="324.5437"
@@ -2309,14 +2351,20 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
        width="148.3871"
        height="19.354839"
        x="157.54976"
-       y="534.89478" />
+       y="534.89478"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:none;stroke:#ff0000;stroke-width:0.72059541999999999;stroke-opacity:1"
        id="rect3254-0"
        width="82.812843"
        height="18.008226"
        x="120.78869"
-       y="611.6507" />
+       y="611.6507"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:none;stroke:#008000;stroke-opacity:1"
        id="rect4060"
@@ -2324,31 +2372,46 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
        height="347.15445"
        x="8.1300812"
        y="195.0813"
-       transform="translate(0,287.36218)" />
+       transform="translate(0,287.36218)"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <rect
        style="fill:none;stroke:#0000ff;stroke-width:0.70310611000000001;stroke-opacity:1"
        id="rect3254-0-5"
        width="78.765289"
        height="18.025715"
        x="141.51167"
-       y="631.15417" />
+       y="631.15417"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.63498271px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 188.43605,652.46023 6.41246,0 0,35.47871 -6.41246,0"
        id="path3006-9-6-0"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 195.23655,671.09389 24.19355,0"
        id="path3153-8"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="223.80202"
        y="675.34753"
        id="text3010-4-3-5"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          x="223.80202"
          y="675.34753"
@@ -2366,19 +2429,28 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
        style="fill:none;stroke:#000000;stroke-width:0.62806618px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 336.72527,690.31042 6.41938,0 0,34.67262 -6.41938,0"
        id="path3006-9-6-0-2"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 343.56176,710.08576 24.19355,0"
        id="path3153-8-9"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="371.11121"
        y="714.20935"
        id="text3010-4-3-5-2"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          x="371.11121"
          y="714.20935"
@@ -2396,19 +2468,28 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
        style="fill:none;stroke:#000000;stroke-width:0.62806618px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 500.85535,726.89579 6.41938,0 0,34.67262 -6.41938,0"
        id="path3006-9-6-0-2-5"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 506.60241,742.60609 24.19355,0"
        id="path3153-8-9-8"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="536.38574"
        y="745.91663"
        id="text3010-4-3-5-2-8"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          x="536.38574"
          y="745.91663"
@@ -2426,29 +2507,44 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
        style="fill:none;stroke:#000000;stroke-width:0.49371135px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 264.20281,573.98309 6.55372,0 0,20.98583 -6.55372,0"
        id="path3006-9-6-08"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 270.01705,583.45161 24.19355,0"
        id="path3153-1"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.63498276px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 365.89947,783.40332 6.41244,0 0,35.4787 -6.41244,0"
        id="path3006-9-6-08-6"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 372.34225,800.52478 24.19355,0"
        id="path3153-1-3"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="400.24677"
        y="775.00201"
        id="text3010-4-7"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          x="400.24677"
          y="775.00201"
@@ -2478,8 +2574,8 @@ QouIiIiIiIjI6elonsEBUFZWpsSDiIiIiIiIiAyZsrIy/h8N9yfvTmrodwAAAABJRU5ErkJggg==
          y="850.00201"
          id="tspan3016-2-0" /></text>
     <image
-       y="989.33746"
-       x="869.86133"
+       y="852.7038"
+       x="888.67322"
        id="image4420"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAYAAABjyArgAAAABHNCSVQICAgIfAhkiAAACRlJREFU
 aIHtml1wG9UVx3+7kjMNxeryVBi5g/Nm+QXxkTwBlkpLhwbIqvkgkFKkPJQpmY5sCoYW27KTmIKb
@@ -2526,6 +2622,9 @@ X30MV1gT+KxU4sPzH/LuyXe/NGIdbLQGX83GbzjB32L9UIUQ3/26J3EdQ/kf7Z60vHHAEWcAAAAA
 SUVORK5CYII=
 "
        height="31"
-       width="88" />
+       width="88"
+       inkscape:export-filename="/home/james/CLL_subcur_explained.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
